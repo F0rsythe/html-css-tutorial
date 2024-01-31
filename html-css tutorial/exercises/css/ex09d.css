@@ -1,0 +1,19 @@
+p{
+    margin: 0px;
+    color: white;
+}
+.ad{
+    background-color: rgb(53, 65, 74);
+    padding-left: 12px;
+    width: 340px;
+}
+.ad-title{
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.ad-text{
+    font-weight:lighter;
+    padding-bottom: 12px;
+}

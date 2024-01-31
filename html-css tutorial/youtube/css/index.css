@@ -1,6 +1,12 @@
 .thumbnail{
     width: 300px;
 }
+.search-bar{
+    display: block;
+}
 .video-preview{
     width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 15px;
 }

@@ -1,0 +1,55 @@
+.btn{
+    background-color: rgb(85, 85, 230);
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    margin-right: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: opacity 0.15s;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.text-box{
+    border: none;
+    font-size: 18px;
+    vertical-align: middle;
+    width: 300px;
+}
+.text-box:active{
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}
+.text-box:focus{
+    outline: none;
+}
+.cat-jpg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: none;
+    border-radius: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav{
+    border: 0px solid;
+    border-radius: 5px;
+    width: 450px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 2px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3) ;
+}
+
+

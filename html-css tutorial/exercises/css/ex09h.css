@@ -1,0 +1,40 @@
+.img-div{
+    text-align: center;
+}
+
+.textbox{
+    width: 600px;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    border-radius: 32px;
+    border-style: solid;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+.btn{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    border: none;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 12px;
+}
+.btns{
+    text-align: center;
+}
+.img{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textbox-div{
+    text-align: center;
+}
+  

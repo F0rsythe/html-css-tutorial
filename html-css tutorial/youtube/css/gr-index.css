@@ -4,7 +4,7 @@ p{
     margin-bottom: 0px;
 }
 .thumbnail{
-    width: 300px;
+    width: 100%;
     /* border: 1px solid magenta; */
 }
 .thumbnail-cont{
@@ -13,12 +13,6 @@ p{
 }
 .search-bar{
     display: block;
-}
-.video-preview{
-    width: 300px;
-    vertical-align: top;
-    display: inline-block;
-    margin-right: 15px;
 }
 .prof-pic-cont{
     vertical-align: top;
@@ -49,4 +43,10 @@ p{
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
 }

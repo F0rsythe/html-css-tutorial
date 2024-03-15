@@ -1,0 +1,10 @@
+.cont{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.t200px{
+    background-color: aqua;
+}
+.t75px{
+    background-color: pink;
+}

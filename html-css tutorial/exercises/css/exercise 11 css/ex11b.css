@@ -1,0 +1,13 @@
+.cont{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.col1{
+    background-color: aqua;
+}
+.col2{
+    background-color: pink;
+}
+.col3{
+    background-color: aqua;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns: 100px 100px 100px; margin-bottom: 30px;">
+        <div style="background-color: pink;">
+            100px pink
+        </div>
+        <div style="background-color: aqua;">
+            100px aqua
+        </div>
+        <div style="background-color: pink;">
+            100px pink
+        </div>
+    </div>
+    <div>
+        <div style="display: grid; grid-template-columns: 100px 1fr 2fr; width: 600px;">
+            <div style="background-color: grey; color: white;">
+                100px grey
+            </div>
+            <div style="background-color: black; color: white;">
+                1fr black
+            </div>
+            <div style="background-color: grey; color: white;">
+                2fr grey
+            </div>
+        </div>
+    </div>
+</body>
+</html>

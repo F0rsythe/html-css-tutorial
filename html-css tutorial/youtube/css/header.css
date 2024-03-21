@@ -1,0 +1,21 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec1{
+    width: 180px;
+    background-color: magenta;
+    margin-right:70px;
+}
+.sec2{
+    flex: 1;
+    background-color: aqua;
+    margin-right: 40px;
+    max-width: 600px;
+}
+.sec3{
+    width: 200px;
+    background-color: magenta;
+}

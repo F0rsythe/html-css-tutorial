@@ -1,0 +1,12 @@
+.cont{
+    display: flex;
+    flex-direction: row;    
+}
+.col1{
+    width: 200px;
+    background-color: lightblue;
+}
+.col2{
+    width: 75px;
+    background-color: lightpink;
+}

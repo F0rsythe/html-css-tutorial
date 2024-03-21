@@ -1,0 +1,17 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col1{
+    background-color: lightpink;
+}
+.col2{
+    background-color: lightpink;
+}
+.col3{
+    background-color: lightpink;
+}
+.col4{
+    background-color: lightpink;
+}

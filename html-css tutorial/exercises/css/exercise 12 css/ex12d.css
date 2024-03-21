@@ -1,0 +1,11 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+}
+.col1, .col2{
+    background-color: lightpink;
+}

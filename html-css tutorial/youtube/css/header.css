@@ -1,21 +1,88 @@
 .header{
-    height: 55px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .sec1{
-    width: 180px;
-    background-color: magenta;
-    margin-right:70px;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
 }
 .sec2{
     flex: 1;
-    background-color: aqua;
-    margin-right: 40px;
-    max-width: 600px;
+    /* background-color: aqua; */
+    margin-right: 35px;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
 }
 .sec3{
     width: 200px;
     background-color: magenta;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    height: 24px;
+    margin: 0px 24px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.mic-pic{
+    height: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.mic-btn{
+    height: 44px;
+    width: 44px;
+    border-radius: 22px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+.search-pic{
+    height: 25px;
+    margin-top: 3px;
+}
+.search-btn{
+    height: 44px;
+    width: 60px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    margin-left: -2px;
+    margin-right: 10px;
+}
+.search-bar{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex: 1;
+    font-size: 16px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.upload-icon{
+    height: 24px;
+}
+.notification-logo{
+    height: 24px;
+}
+.ytube-apps{
+    height: 24px;
+}
+.main-prof{
+    height: 24px;
 }

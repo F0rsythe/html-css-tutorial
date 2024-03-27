@@ -1,0 +1,58 @@
+*{
+    font-family: Roboto, Arial;
+}
+p, div{
+    margin: 0px;
+}
+.card{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* border: 1px solid black; */
+    padding-left: 14px ;
+    padding-right: 14px ;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    border-radius: 3px;
+    width:390px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid magenta; */
+    margin-bottom: 4px;
+}
+.flex-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.head
+{
+    color: rgb(120, 120, 120);
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+.prof-pic{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+.mail-title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.mail-time{
+    color: rgb(120, 120, 120);
+    font-weight: 500;
+}
+.mail-subtitle{
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.mail-info{
+    color: rgb(120, 120, 120);
+    font-weight: 500;
+}

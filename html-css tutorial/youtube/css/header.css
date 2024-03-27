@@ -1,5 +1,5 @@
 .header{
-    height: 70px;
+    height: 63px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,30 +7,46 @@
 .sec1{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-right: 70px;
+    width: 180px;
+
 }
 .sec2{
     flex: 1;
     /* background-color: aqua; */
     margin-right: 35px;
     display: flex;
-    max-width: 500px;
+    max-width: 650px;
     align-items: center;
 }
 .sec3{
-    width: 200px;
-    background-color: magenta;
+    width: 182px;
+    /* background-color: magenta; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    animation-name: test-animation;
+    animation-duration: 10s;
+    margin-right: 24px;
+    flex-shrink: 0;
 }
 .menu{
-    height: 24px;
-    margin: 0px 24px;
+    height: 22px;
+    width: 26px;
+    margin-left: 26px;
+    /* margin: 0px 24px; */
+    object-fit: cover;
+
+}
+@keyframes test-animation {
+    10% {background-color: orchid;}
+    33% {background-color: red;}
+    100% {background-color: aqua;}
 }
 .youtube-logo{
-    height: 20px;
+    height: 22px;
 }
 .mic-pic{
     height: 25px;
@@ -55,7 +71,7 @@
     border-width: 1px;
     border-color: rgb(192, 192, 192);
     border-style: solid;
-    margin-left: -2px;
+    margin-left: -1px;
     margin-right: 10px;
 }
 .search-bar{
@@ -74,15 +90,21 @@
     font-family: Roboto, Arial;
     font-size: 16px;
 }
+.search-bar:focus{
+    outline-color: blue;
+}
 .upload-icon{
-    height: 24px;
+    height: 26px;
 }
 .notification-logo{
-    height: 24px;
+    height: 26px;
 }
 .ytube-apps{
-    height: 24px;
+    height: 26px;
 }
 .main-prof{
-    height: 24px;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
 }

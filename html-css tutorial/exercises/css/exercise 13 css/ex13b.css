@@ -1,0 +1,27 @@
+.cont{
+    display: flex;
+    height: 70px;
+}
+.col1{
+    background-color: lightblue;
+    width: 100px;
+}
+.col2{
+    background-color: lightpink;
+    width: 200px;
+    align-items: center;
+
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div,p{
+    padding: 0px;
+    margin: 0px;
+}
+.fr1{
+    background-color: black;
+    color: white;
+}

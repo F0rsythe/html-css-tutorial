@@ -1,0 +1,66 @@
+*{
+    font-family: Roboto, Arial;
+}
+p, div{
+    padding: 0px;
+    margin: 0px;
+}
+.flex-cont{
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    padding: 10px 14px;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.prof-pic{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.channel-name{
+    font-weight: 900;
+    margin-right: 4px;
+    font-size: 18px;
+}
+.username{
+    color: rgb(102, 107, 108);
+    font-weight: 500;
+}
+.img-cont{
+    margin-right: 10px;
+}
+.content{
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 15px;
+    overflow: hidden ;
+}
+.side{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(210, 210, 210);
+    margin-right: 12px;
+}
+.info{
+    line-height: 22px;
+    font-weight: 500;
+}
+.link{
+    color: rgb(102, 107, 108);
+    margin-bottom: 2px;
+}

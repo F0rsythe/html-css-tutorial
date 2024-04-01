@@ -1,0 +1,32 @@
+.div1{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+.dive{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+body{
+    height: 3000px;
+    padding-top: 60px;
+}
+.side-bar{
+    background-color: green;
+    position: fixed;
+    color: white;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+
+}

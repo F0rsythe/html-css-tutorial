@@ -1,0 +1,17 @@
+*{
+    font-family: Roboto, Arial;
+}
+div, p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 3000px;
+}
+.cont-fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+}

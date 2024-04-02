@@ -1,0 +1,51 @@
+*{
+    font-family: Roboto, Arial;
+}
+p, div{
+    padding: 0px;
+    margin: 0px;
+}
+.cont-fixed{
+    position: fixed;
+    color: white;
+    background-color: green;
+    right: 0px;
+    width: 100px;
+    top: 0px;
+    bottom: 0px;
+}
+.overlay{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    width: 400px;
+    border-radius: 7px;
+}
+.modal-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+.modal-content{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.btn{
+    border-radius: 3px;
+    border-style: solid;
+    font-size: 18px;
+    
+}

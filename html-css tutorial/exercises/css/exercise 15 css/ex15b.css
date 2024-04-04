@@ -1,0 +1,11 @@
+body{
+    height: 3000px;
+}
+.cont{
+    position: fixed;
+    background-color: rgb(76, 76, 76);
+    width: 320px;
+    height: 180px;
+    bottom: 20px;
+    right: 20px;
+}

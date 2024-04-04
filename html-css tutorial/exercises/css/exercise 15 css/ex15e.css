@@ -1,0 +1,18 @@
+.cont{
+    position: relative;
+    display: inline-block;
+}
+.clothing-line{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+.tag{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    right: 0px;
+}
